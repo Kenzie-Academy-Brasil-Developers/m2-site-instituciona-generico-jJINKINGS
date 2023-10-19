@@ -2,6 +2,9 @@
     background: var(--gray-1, #191C1F);
     border-bottom: 2px solid var(--brand-1, #4C6EF5);
     border-top: 1px solid var(--gray-1, #191C1F);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header__div {
