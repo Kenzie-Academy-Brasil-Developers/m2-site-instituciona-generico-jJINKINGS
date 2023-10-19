@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./src/scripts/index.js"></script>
+    <script src="./src/scripts/index.js" defer></script>
     <link rel="stylesheet" href="./src/styles/index.css">
     <title>Site Institucional Genérico</title>
 </head>
@@ -99,6 +99,19 @@
                 <p class="main__paragraph_last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates culpa iusto accusantium molestias itaque labore, quidem ducimus voluptatum, pariatur quam harum, ab nulla magnam tenetur. Quos dolor iure vero.</p>
             </div>
         </section>
+        <dialog class="modalController">
+            <div class="modal__container">
+                <div class="modal__div">
+                    <h1>Cadastro</h1>
+                    <button id="closeModal">X</button>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eligendi ut minus cupiditate esse repudiandae dolorem necessitatibus eius rerum enim, quis assumenda tempore sed. Facilis tempore perferendis vero dolorem delectus.</p>
+                <form class="modal__div_form">
+                    <input type="email" placeholder="Digitar email" id="email" name="email">
+                    <button class="modal__button">Entrar na lista para próxima turma</button>
+                </form>
+            </div>
+        </dialog>
     </main>
 
     <footer class="footer__container">

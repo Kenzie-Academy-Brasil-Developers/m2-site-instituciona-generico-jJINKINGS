@@ -251,3 +251,93 @@ p {
     font-weight: var(--font-weight-text-1-2-3, 400);
     line-height: var(--line-heigth-text, 150%);
 }
+
+.modalController {
+    padding: 40px 28px;
+
+  width: 500px;
+
+  border: 2px solid var(--brand-1, #4C6EF5);
+  background-color: var(--gray-2, #212529);
+}
+
+.modal__container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.modal__div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__div > h1 {
+    color: var(--gray-7, #F8F9FA);
+    font-family: var(--font-family, 'Inter', sans-serif);
+    font-size: var(--font-size-title-3, 32px);
+    font-style: normal;
+    font-weight: var(--font-weigth-title, 600);
+    line-height: var(--line-height-title-2-3, 160%);
+    text-align: center;
+}
+
+.modal__div > button {
+    padding: 0px 12px;
+    background-color: var(--gray-3, #343A40);
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    font-size: var(--font-size-text-1, 20px);
+    color: var(--gray-4, #ADB5BD);
+    line-height: var(--line-height-title-2-3, 160%);
+    font-style: normal;
+    font-weight: var(--font-weight-text-4, 600);
+    font-family: var(--font-family, 'Inter', sans-serif);
+}
+
+.modal__container > p {
+    color: var(--gray-4, #ADB5BD);
+    font-family: var(--font-family, 'Inter', sans-serif);
+    font-size: var(--font-size-text-3-4, 16px);
+    font-style: normal;
+    font-weight: var(--font-weight-text-1-2-3, 400);
+    line-height: var(--line-heigth-text, 150%);
+}
+
+.modal__div_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    width: 100%;
+    height: 60px;
+    border: 1px solid var(--gray-1, #191C1F);
+    background: var(--gray-1, #191C1F);
+    color: var(--gray-4, #ADB5BD);
+    font-family: var(--font-family, 'Inter', sans-serif);
+    font-size: var(--font-size-text-1, 20px);
+    font-style: normal;
+    font-weight: var(--font-weight-text-1-2-3, 400);
+    line-height: var(--line-heigth-text, 150%);
+}
+
+.modal__button {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    border: 1px solid var(--brand-1, #4C6EF5);
+    background-color: var(--brand-1, #4C6EF5);
+    color: var(--gray-7, #F8F9FA);
+    text-align: center;
+    font-style: normal;
+    line-height: var(--line-heigth-text, 150%);
+    font-family: var(--font-family, 'Inter', sans-serif);
+    font-weight: var(--font-weight-text-4, 600);
+    font-size: var(--font-size-text-3-4, 16px);
+}
