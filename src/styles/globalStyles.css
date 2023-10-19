@@ -1,4 +1,5 @@
-/* brand colors */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("./reset.css");
 
 :root {
     --brand-1: #4C6EF5;
@@ -10,7 +11,7 @@
     --gray-5: #CED4DA;
     --gray-6: #EDF2FF;
     --gray-7: #F8F9FA;
-    --font-family: "Inter", sans-serif;
+    --font-family:  'Inter', sans-serif;
     --font-weigth-title: 600;
     --font-size-title-1: 52px;
     --font-size-title-2: 40px;
@@ -22,5 +23,10 @@
     --font-size-text-1: 20px;
     --font-size-text-2: 18px;
     --font-size-text-3-4: 16px;
-    --line-weigth-text: 150%;
+    --line-heigth-text: 150%;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--gray-2, #212529);
 }
