@@ -12,7 +12,7 @@
     color: var(--gray-6, #EDF2FF);
     text-align: center;
     font-family: var(--font-family, 'Inter', sans-serif);
-    font-size: var(--font-size-title-1, clamp(1.125rem, 6vw, 3.25rem));
+    font-size: var(--font-size-title-1, clamp(3.125rem, 6vw, 3.25rem));
     font-style: normal;
     font-weight: var(--font-weigth-title, 600);
     line-height: var(--line-height-title-1, 140%);
@@ -21,7 +21,7 @@
 span {
     color: var(--brand-1, #4C6EF5);
     font-family: var(--font-family, 'Inter', sans-serif);
-    font-size: clamp(1.125rem, 6vw, 3.25rem);
+    font-size: clamp(3.125rem, 6vw, 3.25rem);
     font-style: normal;
     font-weight: var(--font-weigth-title, 600);
     line-height: var(--line-height-title-1, 140%);
@@ -66,7 +66,6 @@ span {
     justify-content: flex-start;
     align-items: center;
     gap: 9.75rem;
-    /* width: 100%; */
     margin-bottom: 5rem;
     max-width: 65%;
     margin: 0rem auto;
@@ -345,7 +344,8 @@ p {
 
 @media(max-width: 1024px) {
     .main__paragraph_first {
-        width: 45.125rem;
+        width: 70%;
+        text-align: center;
     }
 
     .main__div_second {
@@ -380,11 +380,6 @@ p {
 }
 
 @media(max-width: 768px) {
-    .main__paragraph_first {
-        width: 37.125rem;
-    }
-    
-
     .main__div_second {
         max-width: 92%;
         flex-direction: column;
@@ -425,14 +420,5 @@ p {
 
     .main__div_comments {
         width: 100%;
-    }
-}
-
-@media(max-width: 425px) {
-    .main__paragraph_first {
-        text-align: justify;
-    }
-    .header__button--enter {
-        display: none; 
     }
 }

@@ -56,3 +56,12 @@ img {
         position:static
     }
 }
+
+@media (max-width: 425px) {
+    .header__button--enter {
+        display: none;
+    }
+    .header__container {
+        position:static
+    }
+}

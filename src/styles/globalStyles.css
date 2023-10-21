@@ -13,7 +13,7 @@
     --gray-7: #F8F9FA;
     --font-family:  'Inter', sans-serif;
     --font-weigth-title: 600;
-    --font-size-title: clamp(1.125rem, 6vw, 3.25rem);
+    --font-size-title: clamp(3.125rem, 6vw, 3.25rem);
     --font-size-title-2: clamp(1.5rem, 3vw, 2.5rem);
     --font-size-title-3: clamp(1.2rem, 1vw, 2rem);
     --line-height-title-1: 140%;
